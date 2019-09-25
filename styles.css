@@ -41,6 +41,11 @@
 
 }
 
+.img-fluid{
+    max-width: 100%;
+    height: auto;
+}
+
 /*Regular Styling*/
 .container {
 margin: 4% auto;
