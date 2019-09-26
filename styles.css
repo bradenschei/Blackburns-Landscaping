@@ -4,11 +4,16 @@
     border-radius: 0;
     background-color: #5e4486;
     color: white;
-    padding: 1% 0;
+    padding: 0;
     font-size: 1.2em;
     border: 0;
+    height: 125px;
 }
 
+#navImg{
+    height: 200px;
+    width: 200px;
+}
 .navbar-brand{
     float: left;
     min-height: 55px;
@@ -25,6 +30,9 @@
     color: #d5d5d5;
 }
 
+.container-fluid{
+    text-align: right;
+}
 /* Picture Carousel Styling*/
 .carousel-caption{
     top: 50%;
@@ -60,7 +68,7 @@ footer {
     width: 100%;
     padding: 5%;
     color: white;
-    background-color: #5e4486;
+    background-color: rgb(81, 137, 68)
 }
 
 /*Icon Styling*/
@@ -84,6 +92,11 @@ footer {
 .fa-button:hover{
     color: lightgray;
     text-decoration: none;
+}
+
+/* Contact Section*/
+.contact-header {
+    color: powderblue;
 }
 
 /* Moblie/Shrunk Viewports*/
