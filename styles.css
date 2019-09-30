@@ -4,16 +4,17 @@
     border-radius: 0;
     background-color: #5e4486;
     color: white;
-    padding: 0;
     font-size: 1.2em;
     border: 0;
     height: 125px;
+    padding: 0;
 }
 
 #navImg{
     height: 200px;
     width: 200px;
 }
+
 .navbar-brand{
     float: left;
     min-height: 55px;
@@ -33,11 +34,28 @@
 .container-fluid{
     text-align: right;
 }
+
 /* Picture Carousel Styling*/
 .carousel-caption{
-    top: 50%;
-    transform: translateY(-50%);
+    top: 35%;
     text-transform: uppercase;
+    left: 38%;
+    height: 10px;
+    width: 300px;
+    background-color: blue;
+    position: absolute;
+    right: 15%;
+    bottom: 20px;
+    z-index: 0;
+    padding-top: 0;
+    padding-bottom: 30px;
+    color: #fff;
+    text-align: center;
+    border-radius: 5px;
+}
+
+#captionText {
+text-shadow: #FC0 1px 0 10px;
 }
 
 .btn{
@@ -53,6 +71,8 @@
     max-width: 100%;
     height: auto;
 }
+
+
 
 /*Regular Styling*/
 .container {
@@ -118,5 +138,19 @@ footer {
     h2 {
         font-size: 1.7em;
     }
+}
+
+@media (max-width: 580px) {
+    .navbar {
+    padding: 20px 10px !important; /* Use !important to make sure that JavaScript doesn't override the padding on small screens */
+  }
+  .navbar a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+  .navbar-right {
+    float: none;
+  }
 }
 
