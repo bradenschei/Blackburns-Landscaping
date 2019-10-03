@@ -42,10 +42,8 @@
     left: 38%;
     height: 10px;
     width: 300px;
-    
     position: absolute;
     right: 15%;
-    
     z-index: 0;
     padding-top: 0;
     padding-bottom: 90px;
@@ -56,7 +54,6 @@
 
 #captaion-form{
     position: absolute;
-    top: 50%;
     background-color: transparent;
 }
 
@@ -99,6 +96,17 @@ footer {
     color: white;
     background-color: rgb(81, 137, 68)
 }
+
+.sideSticky{
+    border: 5px solid gray;
+    margin-left: 1250px;
+    margin-bottom: 5px;
+    padding: 10px;
+    border-radius: 5px;
+    margin-right: 10px;
+    overflow: auto;
+}
+
 
 /*Icon Styling*/
 .fa {
