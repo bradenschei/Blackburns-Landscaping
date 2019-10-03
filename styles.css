@@ -92,10 +92,15 @@ margin: 4% auto;
 
 footer {
     width: 100%;
-    padding: 5%;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-left: 15px;
+    padding-right: 15px;
     color: white;
     background-color: rgb(81, 137, 68)
 }
+
+
 
 .sideSticky{
     border: 5px solid gray;
@@ -105,7 +110,10 @@ footer {
     border-radius: 5px;
     margin-right: 10px;
     overflow: auto;
+    position: sticky;
+    position: -webkit-sticky;
 }
+
 
 
 /*Icon Styling*/
@@ -128,6 +136,16 @@ footer {
 
 .fa-button:hover{
     color: lightgray;
+    text-decoration: none;
+}
+
+.fa-slide {
+    padding: 5px;
+    color: white;
+}
+
+.fa-slide:hover{
+    color:lightgray;
     text-decoration: none;
 }
 
