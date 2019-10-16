@@ -33,6 +33,7 @@
 
 .container-fluid{
     text-align: right;
+    z-index: 2;
 }
 
 /* Picture Carousel Styling*/
@@ -100,18 +101,21 @@ footer {
     background-color: rgb(81, 137, 68)
 }
 
-
+#realFr{
+    margin-top: 250px;
+}
 
 .sideSticky{
     border: 5px solid gray;
-    margin-left: 1250px;
     margin-bottom: 5px;
     padding: 10px;
     border-radius: 5px;
     margin-right: 10px;
     overflow: auto;
-    position: sticky;
-    position: -webkit-sticky;
+    position: fixed;
+    top: 800px;
+    left: 1725px;
+    right: -1735px;
 }
 
 
@@ -186,6 +190,14 @@ footer {
   }
   .navbar-right {
     float: none;
+  }
+  #navImg {
+      position: relative;
+      bottom: 50px;
+  }
+  .navbar-toggler {
+      position: relative;
+      bottom: 50px;
   }
 }
 
