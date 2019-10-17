@@ -171,8 +171,11 @@ footer {
 }
 
 @media (max-width: 767px) {
-    #navbarLinks{
+    div.navbar-collapse {
     background-color: gainsboro;
+    justify-content: center;
+    display: none;
+    z-index: 2;
     }
 }
 
@@ -195,7 +198,7 @@ footer {
   .navbar a {
     float: none;
     display: block;
-    text-align: left;
+    text-align: right;
   }
   .navbar-right {
     float: none;
