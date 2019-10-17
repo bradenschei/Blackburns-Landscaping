@@ -55,7 +55,7 @@
 
 #captaion-form{
     position: absolute;
-    background-color: transparent;
+    background-color: red;
 }
 
 #captionText {
@@ -113,9 +113,9 @@ footer {
     margin-right: 10px;
     overflow: auto;
     position: fixed;
-    top: 800px;
-    left: 1725px;
-    right: -1735px;
+    top: 600px;
+    left: 1250px;
+    z-index: 2;
 }
 
 
