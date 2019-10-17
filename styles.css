@@ -159,7 +159,9 @@ footer {
 }
 
 /* Moblie/Shrunk Viewports*/
-
+@media (max-width: 960px) {
+    
+}
 @media (max-width: 900px) {
     .fa {
         font-size: 20px;
