@@ -159,6 +159,13 @@ footer {
     color: powderblue;
 }
 
+/* Book Button*/
+.BookButton {
+    text-align: center;
+    border: 1px solid black;
+    margin-left: 600px;
+    margin-right: 600px;
+}
 /* Moblie/Shrunk Viewports*/
 @media (max-width: 960px) {
     
