@@ -1,0 +1,42 @@
+div.services {
+border-style: solid;
+border-color: black;
+margin: 3px;
+overflow: auto;
+background-color: gainsboro;
+border-radius: 2px;
+}
+.services h3{
+text-align: center;
+text-decoration: underline;
+}
+
+.services h6 {
+    text-align: center;
+}
+
+
+/*Images*/
+.services img {
+    width: 200px;
+    height: 200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.summer{
+    margin-bottom: 25px;
+}
+
+.winter{
+    margin-bottom: 25px;
+}
+
+.spring{
+    margin-top: 33px;
+}
+
+.fall{
+    margin-top: 1px;
+}
