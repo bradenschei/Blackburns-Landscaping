@@ -26,11 +26,12 @@ text-decoration: underline;
 }
 
 .summer{
-    margin-bottom: 25px;
+    margin-bottom: 0;
 }
 
 .winter{
-    margin-bottom: 25px;
+    
+    margin-top: 20px;
 }
 
 .spring{
@@ -40,3 +41,25 @@ text-decoration: underline;
 .fall{
     margin-top: 1px;
 }
+
+/*Buttons*/
+.fallbtn {
+    margin-left: 175px;
+}
+
+.summerbtn {
+    margin-left: 175px;
+    margin-bottom: 20px;
+}
+
+.winterbtn {
+margin-left: 175px;
+margin-top: 16px;
+margin-bottom: 25px;
+}
+
+.springbtn {
+margin-left: 175px;
+margin-top: 3px;
+}
+
