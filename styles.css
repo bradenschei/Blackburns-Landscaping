@@ -16,6 +16,11 @@
     width: 200px;
 }
 
+.cmpPhoto {
+    width: 932px !important;
+    margin: auto !important;
+}
+
 .navbar-brand{
     float: left;
     min-height: 55px;
