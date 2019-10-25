@@ -85,7 +85,9 @@
     height: auto;
 }
 
-
+.pikachu {
+    margin-left: 10px;
+}
 
 /*Regular Styling*/
 .container {
