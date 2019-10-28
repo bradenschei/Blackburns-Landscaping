@@ -1,3 +1,8 @@
+/*Body*/
+body {
+    background-color: whitesmoke;
+}
+
 /* Navagation Bar Styling*/
 .navbar{
     margin-bottom: 0;
@@ -125,17 +130,16 @@ footer {
     margin-top: 250px;
 }
 
-.sideSticky{
+.sideSticky {
+    left:1730px;
+    position: fixed;
+    overflow: auto;
     border: 5px solid gray;
     margin-bottom: 5px;
     padding: 10px;
     border-radius: 5px;
     margin-right: 10px;
-    overflow: auto;
-    position: fixed;
-    top: 600px;
-    left: 1250px;
-    z-index: 2;
+    bottom: 100px;
 }
 
 
@@ -182,12 +186,44 @@ footer {
 .BookButton {
     text-align: center;
     border: 1px solid black;
-    margin-left: 600px;
-    margin-right: 600px;
+    border-radius: 2px;
+    margin-left: 800px;
+    margin-right: 800px;
 }
+
+
+/*Calender Section*/
+iframe {
+    width: 1920px;
+    height: 1080px;
+}
+
+
 /* Moblie/Shrunk Viewports*/
-@media (max-width: 960px) {
-    
+@media (max-width: 1600px) {
+    .sideSticky {
+        border: 5px solid gray;
+        margin-bottom: 5px;
+        padding: 10px;
+        border-radius: 5px;
+        margin-right: 10px;
+        overflow: auto;
+        position: fixed;
+        top: 600px;
+        left: 1250px;
+        z-index: 2;
+    }
+    iframe {
+        width: 1425px;
+        height: 1800px;
+    }
+    .BookButton {
+        text-align: center;
+        border: 1px solid black;
+        border-radius: 2px;
+        margin-left: 600px;
+        margin-right: 600px;
+    }
 }
 @media (max-width: 900px) {
     .fa {
