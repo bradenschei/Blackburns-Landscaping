@@ -50,19 +50,20 @@ body {
     z-index: 2;
 }
 
-.review {
-    background-color: whitesmoke;
-    margin-right: auto;
-    margin-left: auto;
-    border: 1px, solid, black;
-    border-radius: 2px;
-}
+
 
 .review-img {
     height: 400px;
     width: 400px;
 }
 
+.review-box {
+    border: 1px solid black;
+    border-radius: 2px;
+    background-color:gainsboro;
+    padding: 2px;
+    
+}
 /* Picture Carousel Styling*/
 .carousel-caption{
     top: 35%;
