@@ -58,9 +58,9 @@ body {
     border-radius: 2px;
 }
 
-.review img {
-    height: 600px;
-    width: 600px;
+.review-img {
+    height: 400px;
+    width: 400px;
 }
 /* Picture Carousel Styling*/
 .carousel-caption{
@@ -127,11 +127,12 @@ footer {
     padding-left: 15px;
     padding-right: 15px;
     color: white;
-    background-color: rgb(81, 137, 68)
+    background-color: rgb(81, 137, 68) !important;
 }
 
 #realFr{
     margin-top: 250px;
+    background-color: rgb(81,137,68) !important;
 }
 
 .sideSticky {
