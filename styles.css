@@ -1,5 +1,6 @@
 * {
     font-family: 'Tahoma', 'Arial', sans-serif;
+
 }
 /*Body*/
 body {
@@ -71,49 +72,69 @@ height: 1000px !important;
     padding: 2px;
     
 }
-/* Picture Carousel Styling*/
-.carousel-caption{
-    top: 35%;
-    text-transform: uppercase;
-    left: 38%;
-    height: 10px;
-    width: 300px;
+
+/*Background Slide Show*/
+.slideshow {
     position: absolute;
-    right: 15%;
-    z-index: 0;
-    padding-top: 0;
-    padding-bottom: 90px;
-    color: #fff;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100vh;
+    animation: animate 16s ease-in-out infinite;
+    background-size: cover;
+    right: 0;
+}
+
+.outer {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100vh;
+    background: rgba(0,0,0,0.5)
+
+}
+
+.details {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
     text-align: center;
-    
 }
 
-#captaion-form{
-    position: absolute;
-    background-color: transparent;
+.details h1 {
+    font-size: 4em;
+    color: #fff;
 }
 
-#captionText {
-    text-shadow: #FC0 1px 0 10px;
-    background-color: rgb(50, 200, 50, .75);
-    border-radius: 5px;
-    border: 1px solid green;
+.details h2 {
+    text-transform: capitalize;
+    color: #fff;
 }
 
-.btn{
-    font-size: 18px;
-    color: white;
-    padding: 12px 22px;
-    background-color: #5e4486;
-    border: 2px solid #ffffff;
-
+.details h2 span:nth-child(1) {
+    color: red;
 }
 
-.img-fluid{
-    max-width: 100%;
-    height: auto;
-    
+.details h2 span:nth-child(2) {
+    color: yellow;
 }
+@keyframes animate{
+    0%, 100%{
+        background-image: url(img/company-photo.jpg);
+    }
+    25% {
+        background-image: url(img/summer.jpg);
+    }
+    50% {
+        background-image: url(img/service.PNG);
+    }
+    75% {
+        background-image: url(img/Picoochie.gif);
+    }
+}
+
 
 .pikachu {
     margin-left: 10px;
