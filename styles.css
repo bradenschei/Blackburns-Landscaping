@@ -18,6 +18,7 @@ body {
     height: 125px;
     padding: 0;
     z-index: 4 !important;
+    height: 100px;
 }
 
 #mainCarousel {
@@ -77,12 +78,13 @@ height: 1000px !important;
 .slideshow {
     position: absolute;
     left: 0;
-    top: 0;
+    top: 25px;
     width: 100%;
-    height: 100vh;
+    height: 99vh;
     animation: animate 16s ease-in-out infinite;
     background-size: cover;
     right: 0;
+    max-width: 1980px;
 }
 
 .outer {
@@ -91,7 +93,7 @@ height: 1000px !important;
     top: 0;
     width: 100%;
     height: 100vh;
-    background: rgba(0,0,0,0.5)
+    background: rgba(0,0,0,0)
 
 }
 
