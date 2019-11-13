@@ -11,14 +11,14 @@ body {
 .navbar{
     margin-bottom: 0;
     border-radius: 0;
-    background-color: aquamarine !important;
+    background-color: #00AC74 !important;
     color: white;
     font-size: 1.2em;
     border: 0;
-    height: 125px;
     padding: 0;
     z-index: 4 !important;
     height: 100px;
+    width: 1920px;
 }
 
 #mainCarousel {
@@ -85,6 +85,7 @@ height: 1000px !important;
     background-size: cover;
     right: 0;
     max-width: 1980px;
+    margin-top: 75px !important;
 }
 
 .outer {
@@ -174,8 +175,9 @@ footer {
     bottom: 100px;
 }
 
-
-
+.shift {
+    top: 350px;
+}
 /*Icon Styling*/
 .fa {
     padding: 15px;
@@ -256,6 +258,9 @@ iframe {
         margin-left: 600px;
         margin-right: 600px;
     }
+    .shift {
+        top: 300px;
+    }
 }
 @media (max-width: 990px) {
     .fa {
@@ -280,8 +285,36 @@ iframe {
         width: 180px;
         bottom: 36px;
     }
+    
 }
-
+@media (max-width: 812px) {
+    .shift{
+        top: -150px;
+    }
+}
+@media (max-width: 800px) {
+    
+    .slideshow {
+        width: 800px;
+        height: 800px;
+    }
+    .slideshow .details {
+        top: 290px;
+    }
+    .shift {
+        top: 250px;
+    }
+}
+@media (max-width: 767px) {
+    .shift {
+        top: -100px;
+    }
+}
+@media (max-width: 740px) {
+    .shift {
+        top: 250px;
+    }
+}
 @media (max-width: 600px) {
     .carousel-caption {
         display: none;
@@ -322,13 +355,32 @@ iframe {
           position: relative;
           height: 175px;
           width: 175px;
-          bottom: 43px;
-          right: 20px;
+          bottom: 60px;
+          right: 22px;
     }
     
     .navbar-toggler-icon {
        margin-bottom: 40px;
        margin-top: 40px; 
        padding-bottom: 0px !important;
+    }
+
+    .slideshow {
+        width: 414px;
+        height: 500px;
+    }
+    .slideshow .details {
+        top: 290px;
+    }
+    .shift {
+        top: 25px;
+    }
+}
+
+@media (max-width: 375px) {
+    .slideshow .details {
+        top: 225px;
+        left: 190px;
+        font-size: small;
     }
 }
