@@ -375,6 +375,10 @@ iframe {
     .shift {
         top: 25px;
     }
+    .navbar-toggler {
+        left: -1543px;
+        top: -25px;
+    }
 }
 
 @media (max-width: 375px) {
