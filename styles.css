@@ -107,7 +107,7 @@ height: 1000px !important;
 
 .details h1 {
     font-size: 4em;
-    color: #fff;
+    color: blueviolet;
 }
 
 .details h2 {
@@ -119,20 +119,15 @@ height: 1000px !important;
     color: red;
 }
 
-.details h2 span:nth-child(2) {
+.details h2 span:nth-child(3) {
     color: yellow;
 }
 @keyframes animate{
     0%, 100%{
         background-image: url(img/company-photo.jpg);
     }
-    25% {
-        background-image: url(img/summer.jpg);
-    }
-    50% {
-        background-image: url(img/service.PNG);
-    }
-    75% {
+    
+    25%, 50%, 75% {
         background-image: url(img/Picoochie.gif);
     }
 }
