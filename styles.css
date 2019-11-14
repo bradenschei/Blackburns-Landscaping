@@ -304,6 +304,20 @@ iframe {
     .shift {
         top: 250px;
     }
+    .navbar-toggler {
+        left: -1120px;
+        top: -25px;
+        display: inline-block;
+        position: relative;
+    }
+}
+@media (max-width: 768px) {
+    .navbar-toggler {
+        left: -1149px;
+        top: -25px;
+        display: inline-block;
+        position: relative;
+    }
 }
 @media (max-width: 767px) {
     .shift {
@@ -376,9 +390,10 @@ iframe {
         top: 25px;
     }
     .navbar-toggler {
-        left: -1543px;
+        left: -1496px;
         top: -25px;
     }
+     
 }
 
 @media (max-width: 375px) {
@@ -386,5 +401,9 @@ iframe {
         top: 225px;
         left: 190px;
         font-size: small;
+    }
+    .navbar-toggler {
+        left: -1543px;
+        top: -25px;
     }
 }
