@@ -71,7 +71,7 @@ height: 1000px !important;
     border-radius: 2px;
     background-color:gainsboro;
     padding: 2px;
-    
+
 }
 
 /*Background Slide Show*/
@@ -127,7 +127,7 @@ height: 1000px !important;
     0%, 100%{
         background-image: url(img/company-photo.jpg);
     }
-    
+
     25%, 50%, 75% {
         background-image: url(img/Picoochie.gif);
     }
@@ -176,7 +176,7 @@ footer {
 }
 
 .shift {
-    top: 350px;
+    top: 375px;
 }
 /*Icon Styling*/
 .fa {
@@ -285,7 +285,7 @@ iframe {
         width: 180px;
         bottom: 36px;
     }
-    
+
 }
 @media (max-width: 812px) {
     .shift{
@@ -293,7 +293,7 @@ iframe {
     }
 }
 @media (max-width: 800px) {
-    
+
     .slideshow {
         width: 800px;
         height: 800px;
@@ -372,10 +372,10 @@ iframe {
           bottom: 60px;
           right: 22px;
     }
-    
+
     .navbar-toggler-icon {
        margin-bottom: 40px;
-       margin-top: 40px; 
+       margin-top: 40px;
        padding-bottom: 0px !important;
     }
 
@@ -393,7 +393,7 @@ iframe {
         left: -1496px;
         top: -25px;
     }
-     
+
 }
 
 @media (max-width: 375px) {
