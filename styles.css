@@ -178,6 +178,10 @@ footer {
 .shift {
     top: 375px;
 }
+
+.shift-2 {
+   top: 325px;
+}
 /*Icon Styling*/
 .fa {
     padding: 15px;
@@ -260,6 +264,9 @@ iframe {
     }
     .shift {
         top: 300px;
+    }
+    .shift-2 {
+        top: 250px;
     }
 }
 @media (max-width: 990px) {
