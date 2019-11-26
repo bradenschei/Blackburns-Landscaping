@@ -155,12 +155,12 @@ footer {
     padding-left: 15px;
     padding-right: 15px;
     color: white;
-    background-color: rgb(81, 137, 68) !important;
+    background-color: #00AC74 !important;
 }
 
 #realFr{
     margin-top: 250px;
-    background-color: rgb(81,137,68) !important;
+    background-color: #00AC74 !important;
 }
 
 .sideSticky {
@@ -238,6 +238,14 @@ iframe {
 
 
 /* Moblie/Shrunk Viewports*/
+@media (max-width: 1750px) {
+    .sideSticky {
+       visibility: 0; 
+       opacity: 0;
+       z-index: 0;
+    }
+}
+
 @media (max-width: 1600px) {
     .sideSticky {
         border: 5px solid gray;
