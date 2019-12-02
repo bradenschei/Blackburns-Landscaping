@@ -1,14 +1,18 @@
-* {
+    * {
     font-family: 'Tahoma', 'Arial', sans-serif;
-
 }
+
+
 /*Body*/
+
 body {
     background-color: whitesmoke;
 }
 
+
 /* Navagation Bar Styling*/
-.navbar{
+
+.navbar {
     margin-bottom: 0;
     border-radius: 0;
     background-color: #00AC74 !important;
@@ -19,14 +23,10 @@ body {
     z-index: 4 !important;
     height: 100px;
     width: 1920px;
+    margin-bottom: 10px;
 }
 
-#mainCarousel {
-width: 1900px;
-height: 1000px !important;
-}
-
-#navImg{
+#navImg {
     height: 200px;
     width: 200px;
 }
@@ -38,28 +38,28 @@ height: 1000px !important;
     display: block;
 }
 
-.navbar-brand{
+.navbar-brand {
     float: left;
     min-height: 55px;
     padding: 0 15px 5px;
 }
 
-.navbar-inverse .navbar-nav .active a, .navbar-inverse .navbar-nav .active a:focus, .navbar-inverse .navbar-nav .active a:hove{
+.navbar-inverse .navbar-nav .active a,
+.navbar-inverse .navbar-nav .active a:focus,
+.navbar-inverse .navbar-nav .active a:hove {
     color: white;
     background-color: #5e4486;
     float: right;
 }
 
-.navbar-inverse .navbar-nav li a{
+.navbar-inverse .navbar-nav li a {
     color: #d5d5d5;
 }
 
-.container-fluid{
+.container-fluid {
     text-align: right;
     z-index: 2;
 }
-
-
 
 .review-img {
     height: 400px;
@@ -69,14 +69,15 @@ height: 1000px !important;
 .review-box {
     border: 1px solid black;
     border-radius: 2px;
-    background-color:gainsboro;
+    background-color: gainsboro;
     padding: 2px;
-
 }
 
+
 /*Regular Styling*/
+
 .container {
-margin: 4% auto;
+    margin: 4% auto;
 }
 
 #icon {
@@ -94,31 +95,29 @@ footer {
     background-color: #00AC74 !important;
 }
 
-#realFr{
+#realFr {
     margin-top: 250px;
     background-color: #00AC74 !important;
 }
 
-.sideSticky {
-    left:1730px;
-    position: fixed;
-    overflow: auto;
-    border: 5px solid gray;
-    margin-bottom: 5px;
-    padding: 10px;
-    border-radius: 5px;
-    margin-right: 10px;
-    bottom: 100px;
+.carousel-inner {
+    width: 65% !important;
 }
 
+.carousel {
+    left: 250px;
+}
+
+
 /*Icon Styling*/
+
 .fa {
     padding: 15px;
     font-size: 25px;
     color: white;
 }
 
-.fa:hover{
+.fa:hover {
     color: lightgray;
     text-decoration: none;
 }
@@ -129,7 +128,7 @@ footer {
     color: white;
 }
 
-.fa-button:hover{
+.fa-button:hover {
     color: lightgray;
     text-decoration: none;
 }
@@ -139,17 +138,21 @@ footer {
     color: white;
 }
 
-.fa-slide:hover{
-    color:lightgray;
+.fa-slide:hover {
+    color: lightgray;
     text-decoration: none;
 }
 
+
 /* Contact Section*/
+
 .contact-header {
     color: powderblue;
 }
 
+
 /* Book Button*/
+
 .BookButton {
     text-align: center;
     border: 1px solid black;
@@ -160,6 +163,7 @@ footer {
 
 
 /*Calender Section*/
+
 iframe {
     width: 1920px;
     height: 1080px;
@@ -167,11 +171,12 @@ iframe {
 
 
 /* Moblie/Shrunk Viewports*/
+
 @media (max-width: 1750px) {
     .sideSticky {
-       visibility: 0; 
-       opacity: 0;
-       z-index: 0;
+        visibility: 0;
+        opacity: 0;
+        z-index: 0;
     }
 }
 
@@ -206,6 +211,7 @@ iframe {
         top: 250px;
     }
 }
+
 @media (max-width: 990px) {
     .fa {
         font-size: 20px;
@@ -229,15 +235,15 @@ iframe {
         width: 180px;
         bottom: 36px;
     }
-
 }
+
 @media (max-width: 812px) {
-    .shift{
+    .shift {
         top: -150px;
     }
 }
-@media (max-width: 800px) {
 
+@media (max-width: 800px) {
     .slideshow {
         width: 800px;
         height: 800px;
@@ -255,6 +261,7 @@ iframe {
         position: relative;
     }
 }
+
 @media (max-width: 768px) {
     .navbar-toggler {
         left: -1149px;
@@ -263,20 +270,20 @@ iframe {
         position: relative;
     }
 }
+
 @media (max-width: 767px) {
     .shift {
         top: -100px;
     }
 }
+
 @media (max-width: 740px) {
     .shift {
         top: 250px;
     }
 }
+
 @media (max-width: 600px) {
-    .carousel-caption {
-        display: none;
-    }
     #icon {
         max-width: 150px;
     }
@@ -287,42 +294,41 @@ iframe {
 
 @media (max-width: 580px) {
     .navbar {
-    padding: 20px 10px !important; /* Use !important to make sure that JavaScript doesn't override the padding on small screens */
-  }
-  .navbar a {
-    float: none;
-    display: block;
-    text-align: right;
-  }
-  .navbar-right {
-    float: none;
-  }
-  #navImg {
-      position: relative;
-      bottom: 50px;
-  }
-  .navbar-toggler {
-      position: relative;
-      bottom: 50px;
-  }
+        padding: 20px 10px !important;
+        /* Use !important to make sure that JavaScript doesn't override the padding on small screens */
+    }
+    .navbar a {
+        float: none;
+        display: block;
+        text-align: right;
+    }
+    .navbar-right {
+        float: none;
+    }
+    #navImg {
+        position: relative;
+        bottom: 50px;
+    }
+    .navbar-toggler {
+        position: relative;
+        bottom: 50px;
+    }
 }
 
 @media (max-width: 414px) {
     .navImg {
-          display: inline-block;
-          position: relative;
-          height: 175px;
-          width: 175px;
-          bottom: 60px;
-          right: 22px;
+        display: inline-block;
+        position: relative;
+        height: 175px;
+        width: 175px;
+        bottom: 60px;
+        right: 22px;
     }
-
     .navbar-toggler-icon {
-       margin-bottom: 40px;
-       margin-top: 40px;
-       padding-bottom: 0px !important;
+        margin-bottom: 40px;
+        margin-top: 40px;
+        padding-bottom: 0px !important;
     }
-
     .slideshow {
         width: 414px;
         height: 500px;
@@ -337,7 +343,6 @@ iframe {
         left: -1496px;
         top: -25px;
     }
-
 }
 
 @media (max-width: 375px) {
@@ -350,4 +355,3 @@ iframe {
         left: -1543px;
         top: -25px;
     }
-}
