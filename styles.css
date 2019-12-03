@@ -163,11 +163,12 @@
     }
     
     #contact-img {
-        height: 300px;
+        height: 325px;
         width: 275px;
         position: relative;
         left: 100px;
-        top: 10px;
+        top: 0;
+        border-radius: 100px;
     }
     /*Calender Section*/
     
