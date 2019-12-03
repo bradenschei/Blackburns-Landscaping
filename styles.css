@@ -148,6 +148,27 @@
         margin-left: 800px;
         margin-right: 800px;
     }
+    
+    .card {
+        height: 475px;
+        width: 450px;
+    }
+    
+    .card-title {
+        text-align: center;
+    }
+    
+    .card-body {
+        text-align: center;
+    }
+    
+    #contact-img {
+        height: 300px;
+        width: 275px;
+        position: relative;
+        left: 100px;
+        top: 10px;
+    }
     /*Calender Section*/
     
     iframe {
