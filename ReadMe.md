@@ -15,7 +15,7 @@ Make sure all links and pictures work and load - Vin
 
 Make sure lang="en" is with html tag on all pages
 Why is there a separate css for services?
-If you are using google for a calendar, I don't think you need the calendar.js file
+If you are using google for a calendar, I don't think you need the calendar.js file -Done
 
 I may still find a few things, but overall looks great!!
 

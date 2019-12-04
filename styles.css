@@ -1,6 +1,10 @@
     * {
         font-family: 'Tahoma', 'Arial', sans-serif;
     }
+
+    html {
+        width: 1550px;
+    }
     /*Body*/
     
     body {
@@ -80,7 +84,7 @@
     }
     
     footer {
-        width: 100%;
+        width: 1915px !important;
         padding-top: 40px;
         padding-bottom: 40px;
         padding-left: 15px;
@@ -90,7 +94,7 @@
     }
     
     #realFr {
-        margin-top: 250px;
+        margin-top: 100px;
         background-color: #00AC74 !important;
     }
     

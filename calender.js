@@ -1,1 +1,0 @@
-$("days.li").equalHeights(100,150);
