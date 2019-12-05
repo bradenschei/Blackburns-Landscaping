@@ -1,7 +1,7 @@
     * {
         font-family: 'Tahoma', 'Arial', sans-serif;
     }
-
+    
     html {
         width: 1550px;
     }
@@ -220,6 +220,18 @@
         .shift-2 {
             top: 250px;
         }
+        html {
+            width: 1080px;
+        }
+        #card {
+            left: -55px !important;
+        }
+        #card2 {
+            left: 35px !important;
+        }
+        #card3 {
+            left: 125px !important;
+        }
     }
     
     @media (max-width: 990px) {
@@ -244,6 +256,9 @@
             height: 180px;
             width: 180px;
             bottom: 36px;
+        }
+        html {
+            width: 990px;
         }
     }
     
