@@ -5,8 +5,6 @@ Put footer styles above media queries - Braden
 Order mobile viewport sizes from biggest to smallest from top to bottom - Braden
 Remove all fillers and jokes from site - Braden
 
-
-
 Make sure lang="en" is with html tag on all pages
 Why is there a separate css for services?
 If you are using google for a calendar, I don't think you need the calendar.js file -Done
